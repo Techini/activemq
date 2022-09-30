@@ -72,7 +72,7 @@
     <jetty-version>${jetty9-version}</jetty-version>
     <jmdns-version>3.4.1</jmdns-version>
     <tomcat-api-version>9.0.48</tomcat-api-version>
-    <jettison-version>1.4.1</jettison-version>
+    <jettison-version>1.5.1</jettison-version>
     <jmock-version>2.5.1</jmock-version>
     <jolokia-version>1.6.2</jolokia-version>
     <josql-version>1.5_5</josql-version>
@@ -157,7 +157,7 @@
     <activemq.osgi.export>${activemq.osgi.export.pkg}*;version=${activemq.osgi.export.version};-noimport:=true</activemq.osgi.export>
     <activemq.osgi.export.version>${project.version}</activemq.osgi.export.version>
     <activemq.osgi.import>${activemq.osgi.import.pkg}</activemq.osgi.import>
-    <activemq.osgi.dynamic.import />
+    <activemq.osgi.dynamic.import/>
     <activemq.osgi.symbolic.name>${project.groupId}.${project.artifactId}</activemq.osgi.symbolic.name>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -1198,7 +1198,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1211,7 +1211,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1224,7 +1224,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <execute />
+                    <execute/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1237,7 +1237,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -1250,7 +1250,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore />
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
