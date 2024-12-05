@@ -51,7 +51,7 @@
     <dependency>
       <groupId>org.ops4j.pax.logging</groupId>
       <artifactId>pax-logging-service</artifactId>
-      <version>1.11.4</version>
+      <version>1.11.14</version>
       <exclusions>
         <exclusion>
           <groupId>log4j</groupId>
